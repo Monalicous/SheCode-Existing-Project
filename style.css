@@ -1,0 +1,84 @@
+        body {
+            font-family: 'Courier New';
+            background: skyblue;
+        }
+
+        h1 {
+            color: goldenrod;
+            text-align: center;
+        }
+
+        span {
+            color: goldenrod;
+            font-weight: 200;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            line-height: 1.5;
+        }
+
+
+
+        .about {
+            background: linear-gradient(white, white, lightblue);
+            max-width: 80%;
+            display: block;
+            margin: 0 auto;
+            padding: fit-content;
+            border-radius: 10px;
+            padding: 30px;
+            opacity: 0.9;
+
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 250px;
+
+        }
+
+        .links {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 1.8;
+            padding: 25px;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        button {
+            font-size: 20px;
+            padding: 10px;
+            background: none;
+            border: solid 2px lightblue;
+            border-radius: 10px;
+            width: 83%;
+            color: #fff;
+            text-transform: uppercase;
+            opacity: 0.5;
+            transition: all 200ms ease-in-out;
+        }
+
+        button:hover {
+            color: skyblue;
+            background: white;
+            border: none;
+            cursor: pointer;
+        }
+
+
+        footer {
+            text-align: center;
+            color: grey;
+
+        }
